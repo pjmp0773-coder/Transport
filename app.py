@@ -27,7 +27,7 @@ if uploaded_file is not None:
     st.image(image, caption='Imagen subida', use_column_width=True)
     
     # Preprocesar
-    IMG_SIZE = 160  # el mismo que usaste en entrenamiento
+    IMG_SIZE = 224  # el mismo que usaste en entrenamiento
     img_resized = image.resize((IMG_SIZE, IMG_SIZE))
     img_array = np.array(img_resized)
     img_array = preprocess_input(img_array)
