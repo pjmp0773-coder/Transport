@@ -1,5 +1,6 @@
 {
   "Aereo": 0,
-  "Rodante": 1,
-  "Tren": 2
+  "Maritimo": 1,
+  "Rodante": 2,
+  "Tren": 3
 }
