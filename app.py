@@ -16,7 +16,7 @@ def load_model():
 
 modelo, idx_to_class = load_model()
 
-st.title('Mi Clasificador')
+st.title('Clasificador Medio de Transporte')
 st.write('Sube una imagen para clasificar')
 
 uploaded_file = st.file_uploader('Imagen', type=['jpg', 'jpeg', 'png'])
